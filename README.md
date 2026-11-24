@@ -2,11 +2,11 @@
 
 A very small practice project: I am learning Playwright, and this is me getting it running for the first time with Java.
 
-This is a learning project, not a full test suite. My main automation project is the bigger [Selenium one](https://github.com/mohamedt2710/saucedemo-ui-automation) - this repo is just my first Playwright steps, kept honest and small on purpose.
+This is a learning project, not a full test suite (it runs on GitHub Actions on every push). My main automation project is the bigger [Selenium one](https://github.com/mohamedt2710/saucedemo-ui-automation) - this repo is just my first Playwright steps, kept honest and small on purpose.
 
 - **Site used for practice:** [Swag Labs](https://www.saucedemo.com)
 - **Tools:** Java, Playwright, JUnit 5, Maven
-- **Tests:** 3 tiny ones - page title, a valid login, and a wrong-password error
+- **Tests:** 13 in total. `PlaywrightLearningTest` has my first 3 (page title, valid login, wrong password). `SwagLabsFlowTest` has 10 more: locked-out user, empty username, product count, cart badge add/remove, cart contents, price sort, checkout validation, full checkout, and logout
 
 ## How to run it
 
